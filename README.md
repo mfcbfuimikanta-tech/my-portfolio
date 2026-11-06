@@ -22,6 +22,15 @@ A responsive, static portfolio featuring three reproducible analytics case studi
 
 Python (Pandas), MySQL, SQL joins and aggregations, exploratory analysis, data cleaning, Excel, Power BI, DAX, KPIs and interactive dashboards.
 
+## Services highlighted on the homepage
+
+- Data cleaning and preparation (Excel / CSV)
+- SQL analysis and reporting
+- Power BI dashboards and KPI reporting
+- Python / Pandas exploratory analysis
+
+Project previews are lightweight illustrative CSS/SVG visual summaries, rather than screenshots of deployed Power BI.
+
 ## Site structure
 
 - `index.html` — homepage, skills, projects and contact
