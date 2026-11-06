@@ -7,5 +7,5 @@ initials: 'AG',
   email: '', // e.g. 'hello@example.com' - enables email button
   github: '', // e.g. 'https://github.com/yourusername' - enables GitHub button
   linkedin: '', // e.g. 'https://www.linkedin.com/in/yourusername/' - enables LinkedIn button
-  resume: 'assets/resume.pdf'
+  resume: 'assets/Ali_Ghaithan_Data_Analyst_CV.pdf'
 };
