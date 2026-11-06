@@ -1,7 +1,7 @@
 /* EDIT THIS FILE: add your own details before publishing. */
 window.PORTFOLIO_PROFILE = {
-  name: 'Your Name',
-  initials: 'DA',
+  name: 'Ali Ghaithan',
+initials: 'AG',
   role: 'Aspiring Data Analyst',
   location: '', // e.g. 'Aden, Yemen'
   email: '', // e.g. 'hello@example.com' - enables email button
