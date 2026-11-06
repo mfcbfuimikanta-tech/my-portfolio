@@ -1,0 +1,47 @@
+// Power BI DAX measures for the synthetic E-commerce Sales dashboard
+// Import powerbi/data/PowerBI_Ready_Sales.csv and rename the table Sales.
+// Create each measure individually (Modeling > New measure).
+
+Completed Revenue =
+CALCULATE(
+    SUM(Sales[LineValue]),
+    KEEPFILTERS(Sales[OrderStatus] = "Completed")
+)
+
+Completed Orders =
+CALCULATE(
+    DISTINCTCOUNT(Sales[OrderID]),
+    KEEPFILTERS(Sales[OrderStatus] = "Completed")
+)
+
+Average Order Value =
+DIVIDE([Completed Revenue], [Completed Orders], 0)
+
+Units Sold =
+CALCULATE(
+    SUM(Sales[Quantity]),
+    KEEPFILTERS(Sales[OrderStatus] = "Completed")
+)
+
+Purchasing Customers =
+CALCULATE(
+    DISTINCTCOUNT(Sales[CustomerID]),
+    KEEPFILTERS(Sales[OrderStatus] = "Completed")
+)
+
+All Orders = DISTINCTCOUNT(Sales[OrderID])
+
+Completion Rate = DIVIDE([Completed Orders], [All Orders], 0)
+
+// Optional calculated table:
+Calendar =
+ADDCOLUMNS(
+    CALENDAR(DATE(2025,1,1), DATE(2025,12,31)),
+    "Year", YEAR([Date]),
+    "Month Number", MONTH([Date]),
+    "Month", FORMAT([Date], "MMM"),
+    "YearMonth", FORMAT([Date], "YYYY-MM")
+)
+
+// Create a relationship from Calendar[Date] to Sales[OrderDate]
+// and sort Calendar[Month] by Calendar[Month Number].
