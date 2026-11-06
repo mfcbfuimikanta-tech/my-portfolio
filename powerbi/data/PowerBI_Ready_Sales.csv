@@ -1,0 +1,240 @@
+OrderItemID,OrderID,CustomerID,OrderDate,OrderStatus,Customer,City,Segment,ProductID,Product,Category,Quantity,UnitPrice,LineValue
+1,1,30,2025-03-15,Completed,Customer 030,Taiz,Retail,9,Lip Balm,Bodycare,3,6.0,18.0
+2,2,38,2025-08-08,Cancelled,Customer 038,Aden,Retail,6,Hair Oil,Haircare,2,15.0,30.0
+3,2,38,2025-08-08,Cancelled,Customer 038,Aden,Retail,4,Sunscreen,Skincare,4,19.0,76.0
+4,3,6,2025-01-25,Cancelled,Customer 006,Aden,Retail,3,Moisturizer,Skincare,4,17.0,68.0
+5,4,39,2025-02-02,Completed,Customer 039,Taiz,Retail,8,Hand Cream,Bodycare,1,8.0,8.0
+6,4,39,2025-02-02,Completed,Customer 039,Taiz,Retail,9,Lip Balm,Bodycare,1,6.0,6.0
+7,4,39,2025-02-02,Completed,Customer 039,Taiz,Retail,5,Shampoo,Haircare,3,11.0,33.0
+8,5,22,2025-02-27,Completed,Customer 022,Sanaa,Retail,8,Hand Cream,Bodycare,1,8.0,8.0
+9,6,17,2025-09-14,Completed,Customer 017,Taiz,Business,2,Vitamin C Serum,Skincare,2,22.0,44.0
+10,6,17,2025-09-14,Completed,Customer 017,Taiz,Business,5,Shampoo,Haircare,3,11.0,33.0
+11,6,17,2025-09-14,Completed,Customer 017,Taiz,Business,4,Sunscreen,Skincare,2,19.0,38.0
+12,7,35,2025-09-29,Cancelled,Customer 035,Aden,Retail,6,Hair Oil,Haircare,1,15.0,15.0
+13,7,35,2025-09-29,Cancelled,Customer 035,Aden,Retail,8,Hand Cream,Bodycare,3,8.0,24.0
+14,7,35,2025-09-29,Cancelled,Customer 035,Aden,Retail,1,Face Cleanser,Skincare,3,12.0,36.0
+15,8,16,2025-01-30,Completed,Customer 016,Mukalla,Retail,2,Vitamin C Serum,Skincare,1,22.0,22.0
+16,8,16,2025-01-30,Completed,Customer 016,Mukalla,Retail,10,Conditioner,Haircare,2,13.0,26.0
+17,8,16,2025-01-30,Completed,Customer 016,Mukalla,Retail,8,Hand Cream,Bodycare,2,8.0,16.0
+18,9,31,2025-10-09,Completed,Customer 031,Sanaa,Retail,10,Conditioner,Haircare,2,13.0,26.0
+19,9,31,2025-10-09,Completed,Customer 031,Sanaa,Retail,7,Body Lotion,Bodycare,3,14.0,42.0
+20,9,31,2025-10-09,Completed,Customer 031,Sanaa,Retail,4,Sunscreen,Skincare,4,19.0,76.0
+21,10,24,2025-08-13,Cancelled,Customer 024,Taiz,Retail,2,Vitamin C Serum,Skincare,2,22.0,44.0
+22,10,24,2025-08-13,Cancelled,Customer 024,Taiz,Retail,4,Sunscreen,Skincare,1,19.0,19.0
+23,11,22,2025-01-11,Completed,Customer 022,Sanaa,Retail,10,Conditioner,Haircare,2,13.0,26.0
+24,12,1,2025-02-06,Completed,Customer 001,Aden,Retail,4,Sunscreen,Skincare,1,19.0,19.0
+25,13,3,2025-06-19,Completed,Customer 003,Sanaa,Retail,5,Shampoo,Haircare,4,11.0,44.0
+26,14,14,2025-10-04,Completed,Customer 014,Sanaa,Business,10,Conditioner,Haircare,4,13.0,52.0
+27,14,14,2025-10-04,Completed,Customer 014,Sanaa,Business,8,Hand Cream,Bodycare,4,8.0,32.0
+28,14,14,2025-10-04,Completed,Customer 014,Sanaa,Business,4,Sunscreen,Skincare,2,19.0,38.0
+29,15,7,2025-02-19,Completed,Customer 007,Sanaa,Retail,7,Body Lotion,Bodycare,4,14.0,56.0
+30,15,7,2025-02-19,Completed,Customer 007,Sanaa,Retail,10,Conditioner,Haircare,1,13.0,13.0
+31,16,7,2025-02-01,Completed,Customer 007,Sanaa,Retail,2,Vitamin C Serum,Skincare,2,22.0,44.0
+32,16,7,2025-02-01,Completed,Customer 007,Sanaa,Retail,4,Sunscreen,Skincare,2,19.0,38.0
+33,17,35,2025-08-18,Completed,Customer 035,Aden,Retail,5,Shampoo,Haircare,4,11.0,44.0
+34,18,16,2025-02-08,Completed,Customer 016,Mukalla,Retail,2,Vitamin C Serum,Skincare,1,22.0,22.0
+35,18,16,2025-02-08,Completed,Customer 016,Mukalla,Retail,1,Face Cleanser,Skincare,2,12.0,24.0
+36,18,16,2025-02-08,Completed,Customer 016,Mukalla,Retail,9,Lip Balm,Bodycare,2,6.0,12.0
+37,19,27,2025-09-06,Completed,Customer 027,Mukalla,Business,1,Face Cleanser,Skincare,4,12.0,48.0
+38,19,27,2025-09-06,Completed,Customer 027,Mukalla,Business,3,Moisturizer,Skincare,1,17.0,17.0
+39,20,25,2025-05-16,Cancelled,Customer 025,Sanaa,Retail,5,Shampoo,Haircare,4,11.0,44.0
+40,20,25,2025-05-16,Cancelled,Customer 025,Sanaa,Retail,7,Body Lotion,Bodycare,2,14.0,28.0
+41,21,13,2025-06-01,Completed,Customer 013,Taiz,Retail,10,Conditioner,Haircare,1,13.0,13.0
+42,22,21,2025-01-30,Completed,Customer 021,Taiz,Business,9,Lip Balm,Bodycare,2,6.0,12.0
+43,22,21,2025-01-30,Completed,Customer 021,Taiz,Business,10,Conditioner,Haircare,1,13.0,13.0
+44,23,33,2025-02-11,Cancelled,Customer 033,Mukalla,Business,10,Conditioner,Haircare,1,13.0,13.0
+45,24,16,2025-07-26,Completed,Customer 016,Mukalla,Retail,4,Sunscreen,Skincare,4,19.0,76.0
+46,24,16,2025-07-26,Completed,Customer 016,Mukalla,Retail,1,Face Cleanser,Skincare,3,12.0,36.0
+47,24,16,2025-07-26,Completed,Customer 016,Mukalla,Retail,2,Vitamin C Serum,Skincare,3,22.0,66.0
+48,25,14,2025-12-09,Completed,Customer 014,Sanaa,Business,5,Shampoo,Haircare,4,11.0,44.0
+49,26,9,2025-12-10,Completed,Customer 009,Mukalla,Retail,6,Hair Oil,Haircare,1,15.0,15.0
+50,26,9,2025-12-10,Completed,Customer 009,Mukalla,Retail,2,Vitamin C Serum,Skincare,4,22.0,88.0
+51,27,40,2025-10-16,Returned,Customer 040,Mukalla,Business,9,Lip Balm,Bodycare,2,6.0,12.0
+52,28,33,2025-05-16,Completed,Customer 033,Mukalla,Business,2,Vitamin C Serum,Skincare,3,22.0,66.0
+53,28,33,2025-05-16,Completed,Customer 033,Mukalla,Business,4,Sunscreen,Skincare,3,19.0,57.0
+54,29,11,2025-08-13,Cancelled,Customer 011,Aden,Retail,5,Shampoo,Haircare,3,11.0,33.0
+55,29,11,2025-08-13,Cancelled,Customer 011,Aden,Retail,9,Lip Balm,Bodycare,1,6.0,6.0
+56,29,11,2025-08-13,Cancelled,Customer 011,Aden,Retail,1,Face Cleanser,Skincare,2,12.0,24.0
+57,30,17,2025-03-01,Cancelled,Customer 017,Taiz,Business,9,Lip Balm,Bodycare,3,6.0,18.0
+58,30,17,2025-03-01,Cancelled,Customer 017,Taiz,Business,3,Moisturizer,Skincare,2,17.0,34.0
+59,30,17,2025-03-01,Cancelled,Customer 017,Taiz,Business,5,Shampoo,Haircare,3,11.0,33.0
+60,31,14,2025-12-18,Completed,Customer 014,Sanaa,Business,9,Lip Balm,Bodycare,3,6.0,18.0
+61,31,14,2025-12-18,Completed,Customer 014,Sanaa,Business,8,Hand Cream,Bodycare,1,8.0,8.0
+62,32,6,2025-11-21,Completed,Customer 006,Aden,Retail,1,Face Cleanser,Skincare,3,12.0,36.0
+63,32,6,2025-11-21,Completed,Customer 006,Aden,Retail,10,Conditioner,Haircare,2,13.0,26.0
+64,33,17,2025-03-24,Completed,Customer 017,Taiz,Business,7,Body Lotion,Bodycare,1,14.0,14.0
+65,33,17,2025-03-24,Completed,Customer 017,Taiz,Business,9,Lip Balm,Bodycare,1,6.0,6.0
+66,33,17,2025-03-24,Completed,Customer 017,Taiz,Business,1,Face Cleanser,Skincare,2,12.0,24.0
+67,34,35,2025-01-19,Cancelled,Customer 035,Aden,Retail,9,Lip Balm,Bodycare,2,6.0,12.0
+68,34,35,2025-01-19,Cancelled,Customer 035,Aden,Retail,3,Moisturizer,Skincare,1,17.0,17.0
+69,34,35,2025-01-19,Cancelled,Customer 035,Aden,Retail,7,Body Lotion,Bodycare,3,14.0,42.0
+70,35,24,2025-01-21,Cancelled,Customer 024,Taiz,Retail,4,Sunscreen,Skincare,1,19.0,19.0
+71,36,23,2025-10-14,Cancelled,Customer 023,Aden,Retail,10,Conditioner,Haircare,2,13.0,26.0
+72,36,23,2025-10-14,Cancelled,Customer 023,Aden,Retail,3,Moisturizer,Skincare,2,17.0,34.0
+73,37,12,2025-07-31,Completed,Customer 012,Mukalla,Business,6,Hair Oil,Haircare,3,15.0,45.0
+74,37,12,2025-07-31,Completed,Customer 012,Mukalla,Business,7,Body Lotion,Bodycare,2,14.0,28.0
+75,37,12,2025-07-31,Completed,Customer 012,Mukalla,Business,4,Sunscreen,Skincare,1,19.0,19.0
+76,38,25,2025-01-20,Cancelled,Customer 025,Sanaa,Retail,4,Sunscreen,Skincare,4,19.0,76.0
+77,39,23,2025-06-06,Completed,Customer 023,Aden,Retail,4,Sunscreen,Skincare,1,19.0,19.0
+78,40,13,2025-07-24,Completed,Customer 013,Taiz,Retail,5,Shampoo,Haircare,3,11.0,33.0
+79,41,33,2025-07-24,Completed,Customer 033,Mukalla,Business,6,Hair Oil,Haircare,3,15.0,45.0
+80,41,33,2025-07-24,Completed,Customer 033,Mukalla,Business,1,Face Cleanser,Skincare,2,12.0,24.0
+81,41,33,2025-07-24,Completed,Customer 033,Mukalla,Business,2,Vitamin C Serum,Skincare,3,22.0,66.0
+82,42,3,2025-02-25,Completed,Customer 003,Sanaa,Retail,6,Hair Oil,Haircare,1,15.0,15.0
+83,42,3,2025-02-25,Completed,Customer 003,Sanaa,Retail,7,Body Lotion,Bodycare,4,14.0,56.0
+84,43,37,2025-04-08,Completed,Customer 037,Mukalla,Business,7,Body Lotion,Bodycare,3,14.0,42.0
+85,43,37,2025-04-08,Completed,Customer 037,Mukalla,Business,1,Face Cleanser,Skincare,4,12.0,48.0
+86,43,37,2025-04-08,Completed,Customer 037,Mukalla,Business,4,Sunscreen,Skincare,1,19.0,19.0
+87,44,22,2025-11-16,Completed,Customer 022,Sanaa,Retail,5,Shampoo,Haircare,3,11.0,33.0
+88,45,27,2025-06-17,Completed,Customer 027,Mukalla,Business,9,Lip Balm,Bodycare,2,6.0,12.0
+89,45,27,2025-06-17,Completed,Customer 027,Mukalla,Business,3,Moisturizer,Skincare,4,17.0,68.0
+90,46,25,2025-12-13,Completed,Customer 025,Sanaa,Retail,10,Conditioner,Haircare,3,13.0,39.0
+91,47,26,2025-10-08,Cancelled,Customer 026,Mukalla,Business,5,Shampoo,Haircare,4,11.0,44.0
+92,47,26,2025-10-08,Cancelled,Customer 026,Mukalla,Business,4,Sunscreen,Skincare,3,19.0,57.0
+93,48,30,2025-08-15,Completed,Customer 030,Taiz,Retail,9,Lip Balm,Bodycare,4,6.0,24.0
+94,49,11,2025-12-04,Completed,Customer 011,Aden,Retail,10,Conditioner,Haircare,2,13.0,26.0
+95,49,11,2025-12-04,Completed,Customer 011,Aden,Retail,6,Hair Oil,Haircare,3,15.0,45.0
+96,49,11,2025-12-04,Completed,Customer 011,Aden,Retail,2,Vitamin C Serum,Skincare,2,22.0,44.0
+97,50,13,2025-03-17,Completed,Customer 013,Taiz,Retail,8,Hand Cream,Bodycare,1,8.0,8.0
+98,51,30,2025-08-01,Cancelled,Customer 030,Taiz,Retail,4,Sunscreen,Skincare,4,19.0,76.0
+99,51,30,2025-08-01,Cancelled,Customer 030,Taiz,Retail,7,Body Lotion,Bodycare,2,14.0,28.0
+100,51,30,2025-08-01,Cancelled,Customer 030,Taiz,Retail,8,Hand Cream,Bodycare,2,8.0,16.0
+101,52,1,2025-02-24,Completed,Customer 001,Aden,Retail,3,Moisturizer,Skincare,4,17.0,68.0
+102,53,4,2025-10-13,Completed,Customer 004,Aden,Retail,8,Hand Cream,Bodycare,2,8.0,16.0
+103,54,30,2025-12-08,Completed,Customer 030,Taiz,Retail,10,Conditioner,Haircare,4,13.0,52.0
+104,54,30,2025-12-08,Completed,Customer 030,Taiz,Retail,6,Hair Oil,Haircare,4,15.0,60.0
+105,54,30,2025-12-08,Completed,Customer 030,Taiz,Retail,8,Hand Cream,Bodycare,2,8.0,16.0
+106,55,31,2025-08-19,Completed,Customer 031,Sanaa,Retail,5,Shampoo,Haircare,4,11.0,44.0
+107,56,16,2025-05-21,Completed,Customer 016,Mukalla,Retail,5,Shampoo,Haircare,3,11.0,33.0
+108,56,16,2025-05-21,Completed,Customer 016,Mukalla,Retail,4,Sunscreen,Skincare,3,19.0,57.0
+109,56,16,2025-05-21,Completed,Customer 016,Mukalla,Retail,10,Conditioner,Haircare,1,13.0,13.0
+110,57,9,2025-03-19,Completed,Customer 009,Mukalla,Retail,3,Moisturizer,Skincare,4,17.0,68.0
+111,57,9,2025-03-19,Completed,Customer 009,Mukalla,Retail,4,Sunscreen,Skincare,4,19.0,76.0
+112,57,9,2025-03-19,Completed,Customer 009,Mukalla,Retail,2,Vitamin C Serum,Skincare,3,22.0,66.0
+113,58,35,2025-08-27,Completed,Customer 035,Aden,Retail,7,Body Lotion,Bodycare,4,14.0,56.0
+114,59,38,2025-12-23,Completed,Customer 038,Aden,Retail,7,Body Lotion,Bodycare,3,14.0,42.0
+115,59,38,2025-12-23,Completed,Customer 038,Aden,Retail,8,Hand Cream,Bodycare,3,8.0,24.0
+116,59,38,2025-12-23,Completed,Customer 038,Aden,Retail,1,Face Cleanser,Skincare,4,12.0,48.0
+117,60,27,2025-10-03,Completed,Customer 027,Mukalla,Business,10,Conditioner,Haircare,2,13.0,26.0
+118,60,27,2025-10-03,Completed,Customer 027,Mukalla,Business,4,Sunscreen,Skincare,3,19.0,57.0
+119,60,27,2025-10-03,Completed,Customer 027,Mukalla,Business,8,Hand Cream,Bodycare,4,8.0,32.0
+120,61,32,2025-01-15,Completed,Customer 032,Sanaa,Business,7,Body Lotion,Bodycare,2,14.0,28.0
+121,61,32,2025-01-15,Completed,Customer 032,Sanaa,Business,3,Moisturizer,Skincare,1,17.0,17.0
+122,61,32,2025-01-15,Completed,Customer 032,Sanaa,Business,8,Hand Cream,Bodycare,4,8.0,32.0
+123,62,38,2025-10-16,Completed,Customer 038,Aden,Retail,7,Body Lotion,Bodycare,2,14.0,28.0
+124,63,30,2025-04-04,Completed,Customer 030,Taiz,Retail,6,Hair Oil,Haircare,4,15.0,60.0
+125,63,30,2025-04-04,Completed,Customer 030,Taiz,Retail,4,Sunscreen,Skincare,3,19.0,57.0
+126,64,22,2025-07-14,Completed,Customer 022,Sanaa,Retail,5,Shampoo,Haircare,4,11.0,44.0
+127,64,22,2025-07-14,Completed,Customer 022,Sanaa,Retail,2,Vitamin C Serum,Skincare,1,22.0,22.0
+128,65,35,2025-01-27,Returned,Customer 035,Aden,Retail,4,Sunscreen,Skincare,1,19.0,19.0
+129,65,35,2025-01-27,Returned,Customer 035,Aden,Retail,2,Vitamin C Serum,Skincare,1,22.0,22.0
+130,66,16,2025-04-13,Cancelled,Customer 016,Mukalla,Retail,3,Moisturizer,Skincare,4,17.0,68.0
+131,66,16,2025-04-13,Cancelled,Customer 016,Mukalla,Retail,4,Sunscreen,Skincare,1,19.0,19.0
+132,66,16,2025-04-13,Cancelled,Customer 016,Mukalla,Retail,10,Conditioner,Haircare,2,13.0,26.0
+133,67,30,2025-12-25,Completed,Customer 030,Taiz,Retail,3,Moisturizer,Skincare,2,17.0,34.0
+134,67,30,2025-12-25,Completed,Customer 030,Taiz,Retail,2,Vitamin C Serum,Skincare,3,22.0,66.0
+135,68,7,2025-10-24,Completed,Customer 007,Sanaa,Retail,10,Conditioner,Haircare,4,13.0,52.0
+136,68,7,2025-10-24,Completed,Customer 007,Sanaa,Retail,7,Body Lotion,Bodycare,2,14.0,28.0
+137,69,5,2025-10-31,Completed,Customer 005,Mukalla,Retail,4,Sunscreen,Skincare,1,19.0,19.0
+138,69,5,2025-10-31,Completed,Customer 005,Mukalla,Retail,2,Vitamin C Serum,Skincare,1,22.0,22.0
+139,69,5,2025-10-31,Completed,Customer 005,Mukalla,Retail,5,Shampoo,Haircare,3,11.0,33.0
+140,70,35,2025-08-08,Completed,Customer 035,Aden,Retail,9,Lip Balm,Bodycare,3,6.0,18.0
+141,71,1,2025-08-04,Completed,Customer 001,Aden,Retail,7,Body Lotion,Bodycare,3,14.0,42.0
+142,72,30,2025-12-29,Completed,Customer 030,Taiz,Retail,9,Lip Balm,Bodycare,3,6.0,18.0
+143,73,40,2025-10-03,Completed,Customer 040,Mukalla,Business,7,Body Lotion,Bodycare,3,14.0,42.0
+144,73,40,2025-10-03,Completed,Customer 040,Mukalla,Business,5,Shampoo,Haircare,2,11.0,22.0
+145,74,6,2025-05-23,Cancelled,Customer 006,Aden,Retail,8,Hand Cream,Bodycare,4,8.0,32.0
+146,75,22,2025-01-15,Completed,Customer 022,Sanaa,Retail,3,Moisturizer,Skincare,2,17.0,34.0
+147,75,22,2025-01-15,Completed,Customer 022,Sanaa,Retail,8,Hand Cream,Bodycare,3,8.0,24.0
+148,76,17,2025-06-24,Completed,Customer 017,Taiz,Business,5,Shampoo,Haircare,2,11.0,22.0
+149,76,17,2025-06-24,Completed,Customer 017,Taiz,Business,9,Lip Balm,Bodycare,1,6.0,6.0
+150,76,17,2025-06-24,Completed,Customer 017,Taiz,Business,1,Face Cleanser,Skincare,2,12.0,24.0
+151,77,27,2025-09-08,Completed,Customer 027,Mukalla,Business,8,Hand Cream,Bodycare,4,8.0,32.0
+152,78,29,2025-01-09,Completed,Customer 029,Taiz,Retail,7,Body Lotion,Bodycare,2,14.0,28.0
+153,79,20,2025-12-06,Completed,Customer 020,Mukalla,Retail,9,Lip Balm,Bodycare,3,6.0,18.0
+154,79,20,2025-12-06,Completed,Customer 020,Mukalla,Retail,10,Conditioner,Haircare,4,13.0,52.0
+155,80,36,2025-06-19,Completed,Customer 036,Aden,Business,5,Shampoo,Haircare,3,11.0,33.0
+156,80,36,2025-06-19,Completed,Customer 036,Aden,Business,10,Conditioner,Haircare,2,13.0,26.0
+157,81,8,2025-04-09,Completed,Customer 008,Aden,Retail,9,Lip Balm,Bodycare,2,6.0,12.0
+158,81,8,2025-04-09,Completed,Customer 008,Aden,Retail,3,Moisturizer,Skincare,4,17.0,68.0
+159,81,8,2025-04-09,Completed,Customer 008,Aden,Retail,4,Sunscreen,Skincare,3,19.0,57.0
+160,82,38,2025-09-26,Completed,Customer 038,Aden,Retail,4,Sunscreen,Skincare,3,19.0,57.0
+161,83,15,2025-07-04,Completed,Customer 015,Aden,Retail,9,Lip Balm,Bodycare,2,6.0,12.0
+162,84,18,2025-01-24,Returned,Customer 018,Taiz,Retail,5,Shampoo,Haircare,1,11.0,11.0
+163,84,18,2025-01-24,Returned,Customer 018,Taiz,Retail,3,Moisturizer,Skincare,1,17.0,17.0
+164,84,18,2025-01-24,Returned,Customer 018,Taiz,Retail,8,Hand Cream,Bodycare,3,8.0,24.0
+165,85,31,2025-09-03,Completed,Customer 031,Sanaa,Retail,1,Face Cleanser,Skincare,3,12.0,36.0
+166,86,31,2025-02-28,Completed,Customer 031,Sanaa,Retail,8,Hand Cream,Bodycare,1,8.0,8.0
+167,86,31,2025-02-28,Completed,Customer 031,Sanaa,Retail,2,Vitamin C Serum,Skincare,2,22.0,44.0
+168,87,10,2025-10-16,Returned,Customer 010,Mukalla,Business,4,Sunscreen,Skincare,1,19.0,19.0
+169,88,36,2025-08-02,Completed,Customer 036,Aden,Business,4,Sunscreen,Skincare,4,19.0,76.0
+170,88,36,2025-08-02,Completed,Customer 036,Aden,Business,9,Lip Balm,Bodycare,4,6.0,24.0
+171,88,36,2025-08-02,Completed,Customer 036,Aden,Business,7,Body Lotion,Bodycare,3,14.0,42.0
+172,89,38,2025-08-08,Completed,Customer 038,Aden,Retail,1,Face Cleanser,Skincare,2,12.0,24.0
+173,89,38,2025-08-08,Completed,Customer 038,Aden,Retail,2,Vitamin C Serum,Skincare,3,22.0,66.0
+174,89,38,2025-08-08,Completed,Customer 038,Aden,Retail,4,Sunscreen,Skincare,1,19.0,19.0
+175,90,11,2025-05-03,Completed,Customer 011,Aden,Retail,3,Moisturizer,Skincare,1,17.0,17.0
+176,91,27,2025-08-19,Completed,Customer 027,Mukalla,Business,5,Shampoo,Haircare,2,11.0,22.0
+177,91,27,2025-08-19,Completed,Customer 027,Mukalla,Business,1,Face Cleanser,Skincare,3,12.0,36.0
+178,92,19,2025-12-26,Cancelled,Customer 019,Mukalla,Retail,4,Sunscreen,Skincare,3,19.0,57.0
+179,93,38,2025-12-05,Completed,Customer 038,Aden,Retail,7,Body Lotion,Bodycare,1,14.0,14.0
+180,94,35,2025-04-26,Completed,Customer 035,Aden,Retail,3,Moisturizer,Skincare,1,17.0,17.0
+181,94,35,2025-04-26,Completed,Customer 035,Aden,Retail,2,Vitamin C Serum,Skincare,2,22.0,44.0
+182,95,20,2025-11-01,Completed,Customer 020,Mukalla,Retail,5,Shampoo,Haircare,4,11.0,44.0
+183,95,20,2025-11-01,Completed,Customer 020,Mukalla,Retail,8,Hand Cream,Bodycare,3,8.0,24.0
+184,95,20,2025-11-01,Completed,Customer 020,Mukalla,Retail,2,Vitamin C Serum,Skincare,4,22.0,88.0
+185,96,18,2025-09-14,Completed,Customer 018,Taiz,Retail,2,Vitamin C Serum,Skincare,4,22.0,88.0
+186,96,18,2025-09-14,Completed,Customer 018,Taiz,Retail,1,Face Cleanser,Skincare,3,12.0,36.0
+187,97,39,2025-05-09,Completed,Customer 039,Taiz,Retail,10,Conditioner,Haircare,1,13.0,13.0
+188,98,18,2025-10-23,Completed,Customer 018,Taiz,Retail,8,Hand Cream,Bodycare,4,8.0,32.0
+189,99,18,2025-04-03,Returned,Customer 018,Taiz,Retail,8,Hand Cream,Bodycare,4,8.0,32.0
+190,99,18,2025-04-03,Returned,Customer 018,Taiz,Retail,2,Vitamin C Serum,Skincare,3,22.0,66.0
+191,100,27,2025-06-20,Completed,Customer 027,Mukalla,Business,3,Moisturizer,Skincare,3,17.0,51.0
+192,101,27,2025-12-22,Completed,Customer 027,Mukalla,Business,7,Body Lotion,Bodycare,4,14.0,56.0
+193,101,27,2025-12-22,Completed,Customer 027,Mukalla,Business,9,Lip Balm,Bodycare,1,6.0,6.0
+194,101,27,2025-12-22,Completed,Customer 027,Mukalla,Business,1,Face Cleanser,Skincare,3,12.0,36.0
+195,102,17,2025-06-15,Completed,Customer 017,Taiz,Business,9,Lip Balm,Bodycare,4,6.0,24.0
+196,102,17,2025-06-15,Completed,Customer 017,Taiz,Business,1,Face Cleanser,Skincare,4,12.0,48.0
+197,103,4,2025-04-07,Completed,Customer 004,Aden,Retail,8,Hand Cream,Bodycare,2,8.0,16.0
+198,103,4,2025-04-07,Completed,Customer 004,Aden,Retail,10,Conditioner,Haircare,3,13.0,39.0
+199,103,4,2025-04-07,Completed,Customer 004,Aden,Retail,1,Face Cleanser,Skincare,2,12.0,24.0
+200,104,19,2025-08-13,Cancelled,Customer 019,Mukalla,Retail,2,Vitamin C Serum,Skincare,2,22.0,44.0
+201,104,19,2025-08-13,Cancelled,Customer 019,Mukalla,Retail,1,Face Cleanser,Skincare,2,12.0,24.0
+202,105,20,2025-10-10,Completed,Customer 020,Mukalla,Retail,2,Vitamin C Serum,Skincare,1,22.0,22.0
+203,105,20,2025-10-10,Completed,Customer 020,Mukalla,Retail,4,Sunscreen,Skincare,4,19.0,76.0
+204,106,8,2025-11-28,Cancelled,Customer 008,Aden,Retail,5,Shampoo,Haircare,3,11.0,33.0
+205,106,8,2025-11-28,Cancelled,Customer 008,Aden,Retail,9,Lip Balm,Bodycare,4,6.0,24.0
+206,107,31,2025-08-30,Completed,Customer 031,Sanaa,Retail,3,Moisturizer,Skincare,2,17.0,34.0
+207,107,31,2025-08-30,Completed,Customer 031,Sanaa,Retail,7,Body Lotion,Bodycare,1,14.0,14.0
+208,107,31,2025-08-30,Completed,Customer 031,Sanaa,Retail,4,Sunscreen,Skincare,3,19.0,57.0
+209,108,27,2025-06-24,Returned,Customer 027,Mukalla,Business,5,Shampoo,Haircare,3,11.0,33.0
+210,108,27,2025-06-24,Returned,Customer 027,Mukalla,Business,1,Face Cleanser,Skincare,4,12.0,48.0
+211,108,27,2025-06-24,Returned,Customer 027,Mukalla,Business,10,Conditioner,Haircare,2,13.0,26.0
+212,109,29,2025-10-03,Completed,Customer 029,Taiz,Retail,9,Lip Balm,Bodycare,4,6.0,24.0
+213,109,29,2025-10-03,Completed,Customer 029,Taiz,Retail,10,Conditioner,Haircare,4,13.0,52.0
+214,110,21,2025-04-07,Returned,Customer 021,Taiz,Business,10,Conditioner,Haircare,4,13.0,52.0
+215,111,15,2025-07-30,Completed,Customer 015,Aden,Retail,8,Hand Cream,Bodycare,2,8.0,16.0
+216,111,15,2025-07-30,Completed,Customer 015,Aden,Retail,7,Body Lotion,Bodycare,4,14.0,56.0
+217,111,15,2025-07-30,Completed,Customer 015,Aden,Retail,9,Lip Balm,Bodycare,1,6.0,6.0
+218,112,9,2025-09-15,Returned,Customer 009,Mukalla,Retail,2,Vitamin C Serum,Skincare,1,22.0,22.0
+219,112,9,2025-09-15,Returned,Customer 009,Mukalla,Retail,8,Hand Cream,Bodycare,4,8.0,32.0
+220,113,1,2025-03-15,Completed,Customer 001,Aden,Retail,3,Moisturizer,Skincare,3,17.0,51.0
+221,113,1,2025-03-15,Completed,Customer 001,Aden,Retail,2,Vitamin C Serum,Skincare,3,22.0,66.0
+222,113,1,2025-03-15,Completed,Customer 001,Aden,Retail,8,Hand Cream,Bodycare,4,8.0,32.0
+223,114,6,2025-06-18,Cancelled,Customer 006,Aden,Retail,7,Body Lotion,Bodycare,1,14.0,14.0
+224,114,6,2025-06-18,Cancelled,Customer 006,Aden,Retail,6,Hair Oil,Haircare,1,15.0,15.0
+225,114,6,2025-06-18,Cancelled,Customer 006,Aden,Retail,8,Hand Cream,Bodycare,2,8.0,16.0
+226,115,19,2025-04-27,Completed,Customer 019,Mukalla,Retail,2,Vitamin C Serum,Skincare,4,22.0,88.0
+227,115,19,2025-04-27,Completed,Customer 019,Mukalla,Retail,10,Conditioner,Haircare,2,13.0,26.0
+228,116,20,2025-01-15,Completed,Customer 020,Mukalla,Retail,5,Shampoo,Haircare,3,11.0,33.0
+229,117,24,2025-08-09,Completed,Customer 024,Taiz,Retail,7,Body Lotion,Bodycare,2,14.0,28.0
+230,117,24,2025-08-09,Completed,Customer 024,Taiz,Retail,3,Moisturizer,Skincare,1,17.0,17.0
+231,117,24,2025-08-09,Completed,Customer 024,Taiz,Retail,9,Lip Balm,Bodycare,4,6.0,24.0
+232,118,40,2025-12-16,Completed,Customer 040,Mukalla,Business,3,Moisturizer,Skincare,3,17.0,51.0
+233,118,40,2025-12-16,Completed,Customer 040,Mukalla,Business,4,Sunscreen,Skincare,4,19.0,76.0
+234,118,40,2025-12-16,Completed,Customer 040,Mukalla,Business,8,Hand Cream,Bodycare,3,8.0,24.0
+235,119,1,2025-08-27,Cancelled,Customer 001,Aden,Retail,9,Lip Balm,Bodycare,4,6.0,24.0
+236,119,1,2025-08-27,Cancelled,Customer 001,Aden,Retail,3,Moisturizer,Skincare,3,17.0,51.0
+237,119,1,2025-08-27,Cancelled,Customer 001,Aden,Retail,2,Vitamin C Serum,Skincare,3,22.0,66.0
+238,120,28,2025-12-20,Completed,Customer 028,Sanaa,Business,4,Sunscreen,Skincare,4,19.0,76.0
+239,120,28,2025-12-20,Completed,Customer 028,Sanaa,Business,7,Body Lotion,Bodycare,1,14.0,14.0
