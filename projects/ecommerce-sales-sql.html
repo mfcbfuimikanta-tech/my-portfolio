@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0c1117">
+<meta name="description" content="Ali Ghaithan's SQL e-commerce sales analysis portfolio project, including reproducible queries and synthetic sample results.">
+<title>E-commerce Sales Analysis | Ali Ghaithan</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/styles.css">
+<script defer src="../assets/profile.js"></script><script defer src="../assets/main.js"></script>
+<style>
+:root {--chart-green:#a3e635;--chart-muted:#27313b}
+.sales-row{display:grid;grid-template-columns:125px 1fr 84px;gap:14px;align-items:center;margin:17px 0}
+.sales-row .metric{font-size:14px;color:var(--muted,#a2aab5)}
+.sales-track{background:var(--chart-muted);border-radius:10px;overflow:hidden;height:17px}
+.sales-fill{height:100%;background:linear-gradient(90deg,#65a30d,var(--chart-green));border-radius:10px}
+.sales-value{font-variant-numeric:tabular-nums;text-align:right;font-weight:700}
+.sales-panel{background:#121b23;border:1px solid #30404b;border-radius:19px;padding:24px;margin:26px 0}
+.sales-panel h3{margin:0 0 20px}
+.sales-panel p{color:#acb5be;font-size:14px}
+.sales-table{width:100%;border-collapse:collapse;margin-top:18px}
+.sales-table th,.sales-table td{padding:12px 9px;border-bottom:1px solid #32414b;text-align:left}
+.sales-table th{color:#aab4bc;font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+.sales-table td:last-child,.sales-table th:last-child{text-align:right}
+@media(max-width:650px){.sales-row{grid-template-columns:90px 1fr 70px;gap:8px}.sales-panel{padding:16px}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header"><div class="container nav">
+<a class="logo" href="../index.html"><span class="logo-square" data-profile="initials">AG</span><span>DATA / ANALYST<small>PORTFOLIO 2026</small></span></a>
+<nav class="nav-links" data-nav-links aria-label="Main navigation"><a href="../index.html#work">Projects</a><a href="../index.html#about">About</a><a href="../index.html#skills">Skills</a><a href="../index.html#contact">Contact</a></nav>
+<div class="nav-actions"><button data-theme-toggle type="button" class="icon-button" aria-label="Switch theme">☀</button><button class="icon-button mobile-menu" data-mobile-menu aria-expanded="false" aria-label="Toggle navigation">☰</button></div>
+</div></header>
+<main id="main"><div class="container">
+<div class="case-hero">
+<a class="back-link" href="../index.html#work">← Back to all projects</a>
+<div class="kicker" style="margin-top:34px">CASE STUDY 002 / SQL • E-COMMERCE</div>
+<h1>E-commerce Sales Performance</h1>
+<p>From four linked tables to actionable sales reporting: revenue, best-selling products, monthly trends, and customer geography, analyzed using MySQL.</p>
+<div class="tags"><span>MySQL 8+</span><span>JOIN</span><span>CTEs</span><span>GROUP BY</span><span>Data validation</span></div>
+<div class="case-actions"><a class="btn" href="../sql/ecommerce-sales-analysis.sql" download>Download SQL analysis ↓</a><a class="btn secondary" href="../results/ecommerce-summary.md" target="_blank" rel="noopener">Read results &amp; methodology ↗</a></div>
+</div>
+<div class="case-stats">
+<div class="case-stat"><strong>120</strong><span>Orders</span></div>
+<div class="case-stat"><strong>91</strong><span>Completed orders</span></div>
+<div class="case-stat"><strong>$6,421</strong><span>Completed revenue</span></div>
+<div class="case-stat"><strong>$70.56</strong><span>Average completed order value</span></div>
+</div>
+<div class="disclosure"><strong>Data transparency:</strong> These are verified results from a <strong>fully synthetic practice dataset</strong>. They are not real company performance figures. Revenue is the sum of item quantity × transaction unit price for <strong>Completed</strong> orders; cancelled and returned orders are excluded.</div>
+<section class="case-section case-two">
+<div><div class="kicker">01 / BUSINESS CONTEXT</div><h2>What drives sales?</h2><p>An online beauty and personal-care retailer wants a clear view of completed sales, best-performing products, geographic performance, and returning customers.</p></div>
+<div><ol class="question-list">
+<li><b>01</b> How much completed revenue did the business generate?</li>
+<li><b>02</b> Which products and cities contributed the most?</li>
+<li><b>03</b> How did revenue change throughout the year?</li>
+<li><b>04</b> How many customers completed repeat purchases?</li>
+</ol></div>
+</section>
+<section class="case-section">
+<div class="kicker">02 / DATA MODEL</div><h2>Four tables, one revenue definition.</h2>
+<p>Joined <code>customers</code> → <code>orders</code> → <code>order_items</code> → <code>products</code> through their shared identifiers. Used the item-level transaction price rather than the current catalog price so the recorded value represents each order.</p>
+<div class="process-grid" style="margin-top:24px">
+<div class="process"><span class="number">40 ROWS</span><h3>Customers</h3><p>Customer IDs, cities, and segments.</p></div>
+<div class="process"><span class="number">120 ROWS</span><h3>Orders</h3><p>Dates, customer links, and statuses.</p></div>
+<div class="process"><span class="number">239 ROWS</span><h3>Order items</h3><p>Product IDs, quantities, and prices.</p></div>
+<div class="process"><span class="number">10 ROWS</span><h3>Products</h3><p>Names, categories, and list prices.</p></div>
+</div>
+</section>
+<section class="case-section">
+<div class="kicker">03 / ANALYTICAL RESULTS</div><h2>Where revenue came from.</h2>
+<div class="sales-panel"><h3>Completed revenue by city</h3>
+<div class="sales-row"><span>Mukalla</span><div class="sales-track"><div class="sales-fill" style="width:100%"></div></div><span class="sales-value">$2,434</span></div>
+<div class="sales-row"><span>Aden</span><div class="sales-track"><div class="sales-fill" style="width:62.24%"></div></div><span class="sales-value">$1,515</span></div>
+<div class="sales-row"><span>Sanaa</span><div class="sales-track"><div class="sales-fill" style="width:54.07%"></div></div><span class="sales-value">$1,316</span></div>
+<div class="sales-row"><span>Taiz</span><div class="sales-track"><div class="sales-fill" style="width:47.49%"></div></div><span class="sales-value">$1,156</span></div>
+<p>Highest contribution: Mukalla accounts for approximately 37.9% of completed revenue.</p></div>
+<div class="sales-panel"><h3>Top products by completed revenue</h3>
+<div class="sales-row"><span>Sunscreen</span><div class="sales-track"><div class="sales-fill" style="width:100%"></div></div><span class="sales-value">$1,159</span></div>
+<div class="sales-row"><span>Vitamin C Serum</span><div class="sales-track"><div class="sales-fill" style="width:98.71%"></div></div><span class="sales-value">$1,144</span></div>
+<div class="sales-row"><span>Body Lotion</span><div class="sales-track"><div class="sales-fill" style="width:65.23%"></div></div><span class="sales-value">$756</span></div>
+<div class="sales-row"><span>Moisturizer</span><div class="sales-track"><div class="sales-fill" style="width:52.80%"></div></div><span class="sales-value">$612</span></div>
+<div class="sales-row"><span>Conditioner</span><div class="sales-track"><div class="sales-fill" style="width:52.72%"></div></div><span class="sales-value">$611</span></div>
+<p>Sunscreen and Vitamin C Serum contribute $2,303 combined, approximately 35.9% of completed revenue.</p></div>
+<div class="sales-panel"><h3>Monthly completed revenue — 2025</h3>
+<table class="sales-table"><thead><tr><th>Month</th><th>Completed revenue</th></tr></thead><tbody>
+<tr><td>January</td><td>$311</td></tr><tr><td>February</td><td>$474</td></tr><tr><td>March</td><td>$429</td></tr><tr><td>April</td><td>$617</td></tr><tr><td>May</td><td>$256</td></tr><tr><td>June</td><td>$390</td></tr><tr><td>July</td><td>$594</td></tr><tr><td>August</td><td>$711</td></tr><tr><td>September</td><td>$429</td></tr><tr><td>October</td><td>$849</td></tr><tr><td>November</td><td>$251</td></tr><tr><td>December</td><td>$1,110</td></tr>
+</tbody></table><p>December has the highest revenue in this small generated sample; this alone does not establish seasonality.</p></div>
+<div class="findings-grid"><div class="finding"><b>24</b><h3>Repeat customers</h3><p>Customers with more than one completed order.</p></div><div class="finding"><b>36</b><h3>Purchasing customers</h3><p>Distinct customers with at least one completed order.</p></div><div class="finding"><b>91</b><h3>Completed orders</h3><p>75.8% of 120 orders have Completed status.</p></div></div>
+</section>
+<section class="case-section case-two"><div><div class="kicker">04 / SQL METHODS</div><h2>Reproducible metrics.</h2><p>This query joins order headers to line items, excludes incomplete orders, and aggregates line-level sales revenue. The full script also covers monthly trends, products, cities, average order value, repeat customers, and integrity checks.</p></div>
+<div class="code-wrap"><div class="code-header"><span>MySQL 8+ · Completed revenue</span><button class="copy-btn" data-copy="sales-sql" type="button">Copy SQL</button></div><pre><code id="sales-sql">SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2)
+       AS completed_revenue
+FROM orders AS o
+JOIN order_items AS oi
+  ON o.order_id = oi.order_id
+WHERE o.order_status = 'Completed';</code></pre></div></section>
+<section class="case-section"><div class="kicker">05 / RECOMMENDATIONS & LIMITATIONS</div><h2>What I would investigate next.</h2><p>Compare the leading products across months, review why cancelled and returned orders are not completed, and investigate whether Mukalla's performance persists in a larger representative sample. Validate revenue against refunds and discounts before adopting a financial reporting definition.</p><p><strong>Limitations:</strong> Synthetic demonstration data, only 120 orders, and simplified order status/price treatment. Figures demonstrate SQL analysis rather than evidence of real customer behavior.</p>
+<div class="case-actions"><a href="../sql/ecommerce-sales-analysis.sql" download class="btn">Download SQL queries ↓</a><a href="../results/ecommerce-summary.md" class="btn secondary">Analysis documentation ↗</a></div>
+</section>
+<div class="case-footer"><div class="small-overline">MORE PROJECTS</div><h2 style="font-size:38px;margin:14px 0">Explore my other case study.</h2><a class="text-link" href="loan-default-risk.html">Loan Default Risk Analysis ↗</a><p><a class="text-link" href="../index.html#work">← Back to portfolio</a></p></div>
+</div></main>
+<footer><div class="container footer-row"><span><b data-profile="name">Ali Ghaithan</b> / Data Analyst Portfolio</span><span>Evidence first. Clear communication always. · <span data-year>2026</span></span></div></footer>
+</body></html>
